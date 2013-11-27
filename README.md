@@ -1,0 +1,4 @@
+collection
+==========
+
+Collections Abstraction Library
