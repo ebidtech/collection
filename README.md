@@ -42,6 +42,57 @@ require 'vendor/autoload.php';
 
 ## Usage ##
 
+Collection class:
+
+```php
+use EBT\Collection\CollectionDirectInterface;
+use EBT\Collection\CountableTrait;
+use EBT\Collection\DirectAccessTrait;
+use EBT\Collection\EmptyTrait;
+use EBT\Collection\GetCollectionTrait;
+use EBT\Collection\IterableTrait;
+
+/**
+ * TestCollection
+ */
+class TestCollection implements CollectionDirectInterface
+{
+    use CountableTrait;
+    use DirectAccessTrait;
+    use EmptyTrait;
+    use GetCollectionTrait;
+    use IterableTrait;
+
+    /**
+     * @var array
+     */
+    protected $collection = array(
+        'test1' => 'val1',
+        'test2' => 'val2',
+        'test3' => 'val3'
+    );
+}
+```
+
+From outside you can:
+* iterate (due to IterableTrait)
+* direct access using get() (due to DirectAccessTrait)
+* use count() (due to CountableTrait)
+
+Example:
+
+```php
+$collection = new TestCollection();
+echo count($collection); // will print 3
+echo $collection->get('test1');  // will print val1
+foreach ($collection as $key => $val) {
+    // will result in:
+    // test1 val1
+    // test2 val2
+    // test3 val3
+    echo sprintf("%s %s", $key, $val);
+}
+```
 
 ## Contributing ##
 
