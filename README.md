@@ -42,7 +42,7 @@ require 'vendor/autoload.php';
 
 ## Usage ##
 
-*Collection class example*:
+**Collection class example**:
 
 ```php
 use EBT\Collection\CollectionDirectInterface;
@@ -79,7 +79,7 @@ From outside you can:
 * direct access using get() (due to DirectAccessTrait)
 * use count() (due to CountableTrait)
 
-*Outside access example*:
+**Outside access example**:
 
 ```php
 $collection = new TestCollection();
