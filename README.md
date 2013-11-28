@@ -43,16 +43,16 @@ require 'vendor/autoload.php';
 ## Usage ##
 
 
-### Contributing ###
+## Contributing ##
 
 See CONTRIBUTING file.
 
-### Credits ###
+## Credits ##
 
 * Emailbidding developer team, collection key developer [Eduardo Oliveira](https://github.com/entering) (entering@gmail.com).
 * [All contributors](https://github.com/ebidtech/collection/contributors)
 
-### License ###
+## License ##
 
 Collection library is released under the MIT License. See the bundled LICENSE file for details.
 
