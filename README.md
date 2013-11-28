@@ -3,7 +3,7 @@
 A set of interfaces and traits to speed up the creation of collections.
 
 [![Latest Stable Version](https://poser.pugx.org/ebidtech/collection/v/stable.png)](https://packagist.org/packages/ebidtech/collection)
- [![Build Status](https://travis-ci.org/ebidtech/collection.png?branch=master)](https://travis-ci.org/ebidtech/collection) [![Coverage Status](https://coveralls.io/repos/ebidtech/compress/badge.png?branch=master)](https://coveralls.io/r/ebidtech/compress?branch=master)
+ [![Build Status](https://travis-ci.org/ebidtech/collection.png?branch=master)](https://travis-ci.org/ebidtech/collection) [![Coverage Status](https://coveralls.io/repos/ebidtech/collection/badge.png?branch=master)](https://coveralls.io/r/ebidtech/collection?branch=master)
 
 ## Requirements ##
 
