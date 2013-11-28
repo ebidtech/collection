@@ -42,7 +42,7 @@ require 'vendor/autoload.php';
 
 ## Usage ##
 
-Collection class:
+*Collection class example*:
 
 ```php
 use EBT\Collection\CollectionDirectInterface;
@@ -79,7 +79,7 @@ From outside you can:
 * direct access using get() (due to DirectAccessTrait)
 * use count() (due to CountableTrait)
 
-Example:
+*Outside access example*:
 
 ```php
 $collection = new TestCollection();
@@ -93,6 +93,9 @@ foreach ($collection as $key => $val) {
     echo sprintf("%s %s", $key, $val);
 }
 ```
+
+Notes:
+* Traits use have an abstract getCollection() method that needs to be implemented on collection class, the GetCollectionTrait makes a simple implementation, you can override it if the property that holds the internal array is not named collection
 
 ## Contributing ##
 
