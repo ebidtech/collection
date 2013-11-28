@@ -1,7 +1,7 @@
 {
     "name": "ebidtech/collection",
     "type": "library",
-    "description": "Collections Abstraction Library",
+    "description": "A set of interfaces and traits to speed up the creation of collections",
     "keywords": ["collection", "php", "library", "abstraction", "trait"],
     "homepage": "http://github.com/ebidtech/collection",
     "license": "MIT",
