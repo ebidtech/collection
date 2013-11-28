@@ -1,4 +1,4 @@
-# Compress #
+# Collection #
 
 A set of interfaces and traits to speed up the creation of collections.
 
