@@ -2,8 +2,8 @@
 
 A set of interfaces and traits to speed up the creation of collections.
 
-[![Latest Stable Version](https://poser.pugx.org/ebidtech/compress/v/stable.png)](https://packagist.org/packages/ebidtech/compress)
- [![Build Status](https://travis-ci.org/ebidtech/compress.png?branch=v0.2)](https://travis-ci.org/ebidtech/compress) [![Coverage Status](https://coveralls.io/repos/ebidtech/compress/badge.png?branch=master)](https://coveralls.io/r/ebidtech/compress?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/ebidtech/collection/v/stable.png)](https://packagist.org/packages/ebidtech/collection)
+ [![Build Status](https://travis-ci.org/ebidtech/collection.png?branch=master)](https://travis-ci.org/ebidtech/collection) [![Coverage Status](https://coveralls.io/repos/ebidtech/compress/badge.png?branch=master)](https://coveralls.io/r/ebidtech/compress?branch=master)
 
 ## Requirements ##
 
