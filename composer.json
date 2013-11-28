@@ -1,0 +1,25 @@
+{
+    "name": "ebidtech/collection",
+    "type": "library",
+    "description": "Collections Abstraction Library",
+    "keywords": ["collection", "php", "library", "abstraction", "trait"],
+    "homepage": "http://github.com/ebidtech/collection",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ebidtech",
+            "email": "developers@emailbidding.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "EBT\\Collection": "src/" }
+    }
+}
