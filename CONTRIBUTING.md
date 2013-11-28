@@ -3,7 +3,7 @@ Contributing
 
 First of all, **thank you** for contributing.
 
-Bugs or feature requests can be posted online on the [GitHub issues](https://github.com/ebidtech/compress/issues)
+Bugs or feature requests can be posted online on the [GitHub issues](https://github.com/ebidtech/collection/issues)
 section of the project.
 
 Few rules to ease code reviews and merges:
