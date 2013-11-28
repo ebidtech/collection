@@ -103,7 +103,7 @@ See CONTRIBUTING file.
 
 ## Credits ##
 
-* Emailbidding developer team, collection key developer [Eduardo Oliveira](https://github.com/entering) (entering@gmail.com).
+* Ebidtech developer team, collection Lead developer [Eduardo Oliveira](https://github.com/entering) (eduardo.oliveira@ebidtech.com).
 * [All contributors](https://github.com/ebidtech/collection/contributors)
 
 ## License ##
