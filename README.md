@@ -3,7 +3,7 @@
 A set of interfaces and traits to speed up the creation of collections.
 
 [![Latest Stable Version](https://poser.pugx.org/ebidtech/collection/v/stable.png)](https://packagist.org/packages/ebidtech/collection)
- [![Build Status](https://travis-ci.org/ebidtech/collection.png?branch=master)](https://travis-ci.org/ebidtech/collection) [![Coverage Status](https://coveralls.io/repos/ebidtech/collection/badge.png?branch=master)](https://coveralls.io/r/ebidtech/collection?branch=master) [![Dependency Status](https://www.versioneye.com/user/projects/52977b39632bac9f3c000002/badge.png)](https://www.versioneye.com/user/projects/52977b39632bac9f3c000002)
+ [![Build Status](https://travis-ci.org/ebidtech/collection.png?branch=master)](https://travis-ci.org/ebidtech/collection) [![Coverage Status](https://coveralls.io/repos/ebidtech/collection/badge.png?branch=master)](https://coveralls.io/r/ebidtech/collection?branch=master) [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/ebidtech/collection/badges/quality-score.png?s=8d909e1554975a4e20c53f113cc8e4e225f97d73)](https://scrutinizer-ci.com/g/ebidtech/collection/) [![Dependency Status](https://www.versioneye.com/user/projects/52977b39632bac9f3c000002/badge.png)](https://www.versioneye.com/user/projects/52977b39632bac9f3c000002)
 
 ## Requirements ##
 
