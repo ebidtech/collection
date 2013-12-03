@@ -99,8 +99,7 @@ Notes:
 
 ## Upgrading ##
 
-### From v1.0 to v1.1 ###
-
+### From v1.0.* to v1.1.* ###
 
 
 ## Contributing ##
