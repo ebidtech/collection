@@ -101,6 +101,7 @@ Notes:
 
 ### From v1.0.* to v1.1.* ###
 
+Replace the CollectionDirectInterface uses and implements with CollectionDirectAccessInterface.
 
 ## Contributing ##
 
