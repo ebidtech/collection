@@ -45,7 +45,7 @@ require 'vendor/autoload.php';
 **Collection class example**:
 
 ```php
-use EBT\Collection\CollectionDirectInterface;
+use EBT\Collection\CollectionDirectAccessInterface;
 use EBT\Collection\CountableTrait;
 use EBT\Collection\DirectAccessTrait;
 use EBT\Collection\EmptyTrait;
@@ -55,7 +55,7 @@ use EBT\Collection\IterableTrait;
 /**
  * TestCollection
  */
-class TestCollection implements CollectionDirectInterface
+class TestCollection implements CollectionDirectAccessInterface
 {
     use CountableTrait;
     use DirectAccessTrait;
@@ -96,6 +96,12 @@ foreach ($collection as $key => $val) {
 
 Notes:
 * Traits use have an abstract getCollection() method that needs to be implemented on collection class, the GetCollectionTrait makes a simple implementation, you can override it if the property that holds the internal array is not named collection
+
+## Upgrading ##
+
+### From v1.0 to v1.1 ###
+
+
 
 ## Contributing ##
 
