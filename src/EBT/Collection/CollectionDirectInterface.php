@@ -20,8 +20,18 @@ interface CollectionDirectInterface extends CollectionInterface
 {
     /**
      * @param mixed $index
+     * @param mixed $defaultValue Will be returned if the index is not present at collection
      *
      * @return mixed Null if not present
      */
-    public function get($index);
+    public function get($index, $defaultValue = null);
+
+    /**
+     * @param mixed $index
+     *
+     * @return mixed
+     *
+     * @throws ResourceNotFoundException
+     */
+    public function getOrException($index);
 }

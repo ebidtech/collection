@@ -28,6 +28,25 @@ class CollectionTest extends PHPUnit_Framework_TestCase
         $collection = new TestCollection();
         $this->assertNull($collection->get('absent'));
         $this->assertEquals('val1', $collection->get('test1'));
+
+        // test with default value
+        $this->assertEquals('default', $collection->get('absent', 'default'));
+        $this->assertEquals('val1', $collection->get('test1', 'default'));
+    }
+
+    public function testDirectAccessGetOrException()
+    {
+        $collection = new TestCollection();
+        $this->assertEquals('val1', $collection->getOrException('test1'));
+    }
+
+    /**
+     * @expectedException \EBT\Collection\ResourceNotFoundException
+     */
+    public function testDirectAccessGetOrExceptionAbsent()
+    {
+        $collection = new TestCollection();
+        $this->assertNull($collection->getOrException('absent'));
     }
 
     public function testEmpty()

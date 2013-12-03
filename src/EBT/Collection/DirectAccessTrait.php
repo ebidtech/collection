@@ -18,16 +18,35 @@ trait DirectAccessTrait
 {
     /**
      * @param mixed $index
+     * @param mixed $defaultValue Will be returned if the index is not present at collection
      *
      * @return mixed Null if not present
      */
-    public function get($index)
+    public function get($index, $defaultValue = null)
     {
         $index = (string) $index;
 
         $collection = $this->getCollection();
 
-        return isset($collection[$index]) ? $collection[$index] : null;
+        return isset($collection[$index]) ? $collection[$index] : $defaultValue;
+    }
+
+    /**
+     * @param mixed $index
+     *
+     * @return mixed
+     *
+     * @throws ResourceNotFoundException
+     */
+    public function getOrException($index)
+    {
+        $index = (string) $index;
+        $value = $this->get($index, null);
+        if ($value === null) {
+            throw new ResourceNotFoundException(sprintf('Get failed, index "%s" not found.', $index));
+        }
+
+        return $value;
     }
 
     /**
