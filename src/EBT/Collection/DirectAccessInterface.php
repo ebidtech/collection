@@ -12,11 +12,9 @@
 namespace EBT\Collection;
 
 /**
- * CollectionDirectInterface
- *
- * The CollectionInterface plus methods to allow direct access base on index.
+ * DirectAccessInterface allows direct access base on index.
  */
-interface CollectionDirectInterface extends CollectionInterface
+interface DirectAccessInterface
 {
     /**
      * @param mixed $index

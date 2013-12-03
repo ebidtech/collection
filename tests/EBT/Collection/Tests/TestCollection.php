@@ -11,7 +11,7 @@
 
 namespace EBT\Collection\Tests;
 
-use EBT\Collection\CollectionDirectInterface;
+use EBT\Collection\CollectionDirectAccessInterface;
 use EBT\Collection\CountableTrait;
 use EBT\Collection\DirectAccessTrait;
 use EBT\Collection\EmptyTrait;
@@ -21,7 +21,7 @@ use EBT\Collection\IterableTrait;
 /**
  * TestCollection
  */
-class TestCollection implements CollectionDirectInterface
+class TestCollection implements CollectionDirectAccessInterface
 {
     use CountableTrait;
     use DirectAccessTrait;
