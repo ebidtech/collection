@@ -50,6 +50,18 @@ trait DirectAccessTrait
     }
 
     /**
+     * @param mixed $index
+     *
+     * @return bool True if that index is present
+     */
+    public function has($index)
+    {
+        $index = (string) $index;
+
+        return $this->get($index, null) !== null;
+    }
+
+    /**
      * @return array
      */
     abstract protected function &getCollection();
