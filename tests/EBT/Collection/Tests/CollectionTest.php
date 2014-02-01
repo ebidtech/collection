@@ -64,12 +64,12 @@ class CollectionTest extends PHPUnit_Framework_TestCase
 
     public function testIterable()
     {
-        $collectionArr = array(1 => 'val1', 2 => 'val2');
-        $collection = new TestCollection($collectionArr);
+        $items = array(1 => 'val1', 2 => 'val2');
+        $collection = new TestCollection($items);
         foreach ($collection as $key => $val) {
-            $this->assertEquals($key, key($collectionArr));
-            $this->assertEquals($val, current($collectionArr));
-            next($collectionArr);
+            $this->assertEquals($key, key($items));
+            $this->assertEquals($val, current($items));
+            next($items);
         }
     }
 }
