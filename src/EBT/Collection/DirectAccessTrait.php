@@ -26,9 +26,9 @@ trait DirectAccessTrait
     {
         $index = (string) $index;
 
-        $collection = $this->getItems();
+        $items = $this->getItems();
 
-        return isset($collection[$index]) ? $collection[$index] : $defaultValue;
+        return isset($items[$index]) ? $items[$index] : $defaultValue;
     }
 
     /**
