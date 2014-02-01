@@ -17,6 +17,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "~1.5.0",
+        "phpmd/phpmd": "~1.5.0",
         "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
