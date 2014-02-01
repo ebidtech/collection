@@ -59,7 +59,7 @@ trait IterableTrait
      */
     public function valid()
     {
-        return current($this->getItems());
+        return key($this->getItems()) !== null;
     }
 
     /**
