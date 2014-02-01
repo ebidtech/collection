@@ -15,7 +15,7 @@ use EBT\Collection\CollectionDirectAccessInterface;
 use EBT\Collection\CountableTrait;
 use EBT\Collection\DirectAccessTrait;
 use EBT\Collection\EmptyTrait;
-use EBT\Collection\GetCollectionTrait;
+use EBT\Collection\GetItemsTrait;
 use EBT\Collection\IterableTrait;
 
 /**
@@ -26,25 +26,25 @@ class TestCollection implements CollectionDirectAccessInterface
     use CountableTrait;
     use DirectAccessTrait;
     use EmptyTrait;
-    use GetCollectionTrait;
+    use GetItemsTrait;
     use IterableTrait;
 
     /**
      * @var array
      */
-    protected $collection = array(
+    protected $items = array(
         'test1' => 'val1',
         'test2' => 'val2',
         'test3' => 'val3'
     );
 
     /**
-     * @param array|null $collection
+     * @param array|null $items
      */
-    public function __construct($collection = null)
+    public function __construct($items = null)
     {
-        if (is_array($collection)) {
-            $this->collection = $collection;
+        if (is_array($items)) {
+            $this->items = $items;
         }
     }
 }

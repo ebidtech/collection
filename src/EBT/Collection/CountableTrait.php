@@ -23,11 +23,11 @@ trait CountableTrait
      */
     public function count()
     {
-        return count($this->getCollection());
+        return count($this->getItems());
     }
 
     /**
      * @return array
      */
-    abstract protected function &getCollection();
+    abstract protected function &getItems();
 }

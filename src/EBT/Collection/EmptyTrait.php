@@ -21,11 +21,11 @@ trait EmptyTrait
      */
     public function isEmpty()
     {
-        return $this->getCollection() === array();
+        return $this->getItems() === array();
     }
 
     /**
      * @return array
      */
-    abstract protected function &getCollection();
+    abstract protected function &getItems();
 }

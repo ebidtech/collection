@@ -21,7 +21,7 @@ trait IterableTrait
      */
     public function rewind()
     {
-        reset($this->getCollection());
+        reset($this->getItems());
     }
 
     /**
@@ -31,7 +31,7 @@ trait IterableTrait
      */
     public function current()
     {
-        return current($this->getCollection());
+        return current($this->getItems());
     }
 
     /**
@@ -41,7 +41,7 @@ trait IterableTrait
      */
     public function key()
     {
-        return key($this->getCollection());
+        return key($this->getItems());
     }
 
     /**
@@ -49,7 +49,7 @@ trait IterableTrait
      */
     public function next()
     {
-        next($this->getCollection());
+        next($this->getItems());
     }
 
     /**
@@ -59,11 +59,11 @@ trait IterableTrait
      */
     public function valid()
     {
-        return current($this->getCollection());
+        return current($this->getItems());
     }
 
     /**
      * @return array
      */
-    abstract protected function &getCollection();
+    abstract protected function &getItems();
 }

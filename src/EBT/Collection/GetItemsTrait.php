@@ -12,12 +12,12 @@
 namespace EBT\Collection;
 
 /**
- * GetCollectionTrait
+ * GetItemsTrait
  */
-trait GetCollectionTrait
+trait GetItemsTrait
 {
-    protected function &getCollection()
+    protected function &getItems()
     {
-        return $this->collection;
+        return $this->items;
     }
 }

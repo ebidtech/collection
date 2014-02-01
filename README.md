@@ -49,7 +49,7 @@ use EBT\Collection\CollectionDirectAccessInterface;
 use EBT\Collection\CountableTrait;
 use EBT\Collection\DirectAccessTrait;
 use EBT\Collection\EmptyTrait;
-use EBT\Collection\GetCollectionTrait;
+use EBT\Collection\GetItemsTrait;
 use EBT\Collection\IterableTrait;
 
 /**
@@ -60,13 +60,13 @@ class TestCollection implements CollectionDirectAccessInterface
     use CountableTrait;
     use DirectAccessTrait;
     use EmptyTrait;
-    use GetCollectionTrait;
+    use GetItemsTrait;
     use IterableTrait;
 
     /**
      * @var array
      */
-    protected $collection = array(
+    protected $items = array(
         'test1' => 'val1',
         'test2' => 'val2',
         'test3' => 'val3'
