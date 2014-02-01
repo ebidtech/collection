@@ -1,5 +1,9 @@
 # Upgrade #
 
+## From v1.0.* to v1.1.* ##
+
+Replace the CollectionDirectInterface uses and implements with CollectionDirectAccessInterface.
+
 ## From 1.* to 2.* ##
 
 At 2.* the GetCollectionTrait is removed and all the traits call a getItems instead.
